@@ -11,6 +11,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
 .featured-projects {
   background-color: #282c34;
   min-height: 100vh;
@@ -54,7 +70,7 @@
   color: white;
 }
 
-footer {
+.footer {
   background-color: hsl(0, 0%, 0%);
   display: flex;
   flex-direction: column;
